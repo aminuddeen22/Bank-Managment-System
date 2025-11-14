@@ -1,4 +1,5 @@
 Bank Management System (Java)
+
 A lightweight ATM-style banking application built using Java Swing and JDBC. This system allows users to create accounts, log in, and perform banking operations.
  Features
 User Signup (3-step form)
@@ -10,11 +11,13 @@ Mini Statement (Recent transactions)
 PIN Change
 
 Tech Stack
+
 Java - Swing GUI
 JDBC -MySQL Database
 Toedter  JDateChooser  -Date picker
 
 Project Modules (Short Summary)
+
  Login
 Authenticates using card number + PIN from the login table.
 Signup (3 Pages)
@@ -36,6 +39,7 @@ Login – card number + PIN
 Bank – all transactions
 
 ▶ How to Run :-
+
 1. Import project into any Java IDE.
 2. Create MySQL database and tables (signup, signuptwo, signupthree, login, bank).
 3. Update credentials in Connn.java:
